@@ -1,0 +1,32 @@
+{
+  "name": "fosify-url",
+  "version": "0.0.1",
+  "description": "A URL creator for the scripts bundled with Fosify.",
+  "main": "./lib",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zkochan/fosify-url.git"
+  },
+  "keywords": [
+    "fosify"
+  ],
+  "author": "Zoltan Kochan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/fosify-url/issues"
+  },
+  "homepage": "https://github.com/zkochan/fosify-url",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-karma": "0.0.4",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-browserify": "^4.2.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  }
+}
