@@ -1,6 +1,6 @@
 {
   "name": "fosify-url",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A URL creator for the scripts bundled with Fosify.",
   "main": "./lib",
   "scripts": {

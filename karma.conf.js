@@ -12,7 +12,11 @@ module.exports = function (config) {
     },
 
     browserify: {
-      debug: true
+      debug: true,
+      insertGlobalVars: {
+        __host: function() {return '\'example.com\'';},
+        __secureHost: function() {return '\'secure.example.com\'';}
+      }
     },
 
     frameworks: ['browserify', 'jasmine'],
