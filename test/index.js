@@ -8,7 +8,7 @@ var nonSecureLocation = {
   protocol: 'http:'
 };
 
-describe('Fosify URL', function() {
+describe('Foso URL', function() {
   it('on non-secure page', function() {
     var createUrl = furl('/some-path', nonSecureLocation);
 

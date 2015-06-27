@@ -1,24 +1,28 @@
 {
-  "name": "fosify-url",
-  "version": "0.1.0",
-  "description": "A URL creator for the scripts bundled with Fosify.",
+  "name": "foso-url",
+  "version": "0.1.1",
+  "description": "A URL creator for the scripts bundled with foso.",
   "main": "./lib",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zkochan/fosify-url.git"
+    "url": "https://github.com/fosojs/fosify-url.git"
   },
   "keywords": [
     "fosify"
   ],
-  "author": "Zoltan Kochan",
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zkochan/fosify-url/issues"
+    "url": "https://github.com/fosojs/fosify-url/issues"
   },
-  "homepage": "https://github.com/zkochan/fosify-url",
+  "homepage": "https://github.com/fosojs/fosify-url",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-karma": "0.0.4",
@@ -28,5 +32,8 @@
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.2.0",
     "phantomjs": "^1.9.17"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   }
 }
