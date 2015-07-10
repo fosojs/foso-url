@@ -15,7 +15,8 @@ module.exports = function (config) {
       debug: true,
       insertGlobalVars: {
         __host: function() {return '\'example.com\'';},
-        __secureHost: function() {return '\'secure.example.com\'';}
+        __secureHost: function() {return '\'secure.example.com\'';},
+        __baseURL: function() {return '\'/foo\'';}
       }
     },
 

@@ -32,6 +32,10 @@
     "after",
     "afterEach",
     "it",
-    "inject"
+    "inject",
+    "__host",
+    "__secureHost",
+    "__baseURL",
+    "expect"
    ]
 }

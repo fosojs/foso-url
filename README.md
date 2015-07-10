@@ -25,7 +25,10 @@ my-project
      └── main.bundle.js
 ```
 
-And you want to add a link to the `/my-project/homepage/chat-box/index.js` from `/my-project/homepage/main.js`. How can you possibly know on what domain will your bundled scripts hosted? You can use Fosify URL to generate the correct URL for you. So this is how `main.js` will look like:
+And you want to add a link to the `/my-project/homepage/chat-box/index.js` from
+`/my-project/homepage/main.js`. How can you possibly know on what domain will
+your bundled scripts hosted? You can use Fosify URL to generate the correct URL
+for you. So this is how `main.js` will look like:
 
 ```js
 var furl = require('foso-url')(__dirname);
