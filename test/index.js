@@ -20,4 +20,11 @@ describe('Foso URL', function() {
 
     expect(createUrl('index.js')).toBe('https://secure.example.com/some-path/index.js');
   });
+
+  it('return always correct URL', function() {
+    var createUrl = furl('/some-path\\', nonSecureLocation);
+
+    expect(createUrl('\\foo\\index.js'))
+      .toBe('http://example.com/some-path/foo/index.js');
+  });
 });
