@@ -3,7 +3,7 @@
 A URL creator for the scripts bundled with [foso](https://github.com/fosojs/foso).
 
 [![Dependency Status](https://david-dm.org/fosojs/foso-url/status.svg?style=flat)](https://david-dm.org/fosojs/foso-url)
-[![Build Status](http://img.shields.io/travis/fosojs/foso-url.svg?style=flat)](https://travis-ci.org/fosojs/foso-url)
+[![Build Status](https://travis-ci.org/fosojs/foso-url.svg?branch=master)](https://travis-ci.org/fosojs/foso-url)
 [![npm version](https://badge.fury.io/js/foso-url.svg)](http://badge.fury.io/js/foso-url)
 
 
