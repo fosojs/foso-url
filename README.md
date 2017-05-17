@@ -1,5 +1,7 @@
 # foso-url
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fosojs/foso-url.svg)](https://greenkeeper.io/)
+
 A URL creator for the scripts bundled with [foso](https://github.com/fosojs/foso).
 
 [![Dependency Status](https://david-dm.org/fosojs/foso-url/status.svg?style=flat)](https://david-dm.org/fosojs/foso-url)

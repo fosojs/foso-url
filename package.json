@@ -25,13 +25,13 @@
   "homepage": "https://github.com/fosojs/foso-url",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-karma": "0.0.4",
+    "gulp-karma": "0.0.5",
     "jasmine-core": "^2.3.4",
-    "karma": "^0.12.36",
-    "karma-browserify": "^4.2.1",
-    "karma-jasmine": "^0.3.5",
-    "karma-phantomjs-launcher": "^0.2.0",
-    "phantomjs": "^1.9.17"
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
